@@ -1,0 +1,200 @@
+/* =============================
+Theme: Matalex Dark 1.2
+Author: Alexandra Bond
+License: CC BY-SA 3.0
+
+For more customized Wikidot themes:
+contact alex@matalexlabs.co.uk
+============================= */
+
+/* Global
+============================= */
+
+body {
+     background-color: #006F6F;
+}
+
+body a {
+    color: #66B9B9;
+    text-decoration: none;
+}
+
+body a:hover {
+    color: #F8F8FF;
+    text-decoration: none;
+    background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-family: "Courier New", Courier, monospace;
+}
+
+/* Container
+============================= */
+
+#container {
+    margin: 10px auto;
+    width: 950px;
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    color: #F8F8FF;
+    font-size: 110%;
+    line-height: 170%;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #container {
+    width: 100%;
+  }
+}
+
+/* Header
+============================= */
+
+#header {
+    height: 120px;
+}
+#header h1 {
+    display: block;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 200%;
+    text-shadow: 2px 0px 2px #858585;
+    letter-spacing: 2px;
+}
+#header h1 a:hover {
+    background: none;
+    text-decoration: none;
+}
+#header h2 {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    letter-spacing: 2px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 120%;
+}
+
+/* Top Bar
+============================= */
+
+#top-bar {
+     margin-top: 10px;
+     width: 70%;
+     height: 30px;
+     position: relative;
+     left: 0;
+     bottom: 0;
+     margin-left: 15px;
+}
+
+#top-bar a {
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+#top-bar a:hover {
+    color: #F8F8FF;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+#top-bar li ul li a {
+    background-color: black;
+}
+
+sfhover {
+    background-color: black;
+}
+
+/* Side Bar
+============================= */
+
+#side-bar {
+     float: right;
+     border: 1px solid #DFDFE6;
+     width: 200px;
+     padding-left: 20px;
+     padding-right: 20px;
+     border-radius: 5px;
+     margin-right: 10px;
+}
+
+#side-bar a:hover {
+    font-weight: bold;
+}
+
+/* Content
+============================= */
+
+#main-content {
+    margin: 30px 260px 20px 5px;
+    padding: 30px;
+}
+
+#main-content a:hover {
+    font-weight: bold;
+}
+
+/* Page Title
+============================= */
+
+#page-title{
+    font-size: 120%;
+    padding-bottom: 5px;
+}
+
+/* Table of Content
+============================= */
+
+#toc {
+     background-color: black;
+     border: 1px solid #DFDFE6;
+     padding: 20px;
+     border-radius: 5px;
+}
+
+#toc a:hover {
+    font-weight: bold;
+}
+
+/* Code Block
+============================= */
+
+.code {
+     font-family: "Courier New", Courier, monospace;
+     background-color:#DFDFE6;
+     color: black;
+     padding: 5px 20px 5 px 20px;
+     border-radius: 5px;
+}
+
+/* Basic Table
+============================= */
+
+table.wiki-content-table th {
+    background-color: black;
+    color: #DFDFE6;
+}
+
+/* Quote
+============================= */
+
+blockquote {
+     font-family: "Courier New", Courier, monospace;
+     background-color: black;
+     color: #DFDFE6;
+     padding: 5px 20px 5 px 20px;
+     border-radius: 5px;
+     margin-left: 0px;
+     margin-right: 0px;
+}
